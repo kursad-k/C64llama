@@ -1,0 +1,16 @@
+/* C64 TrueType Font */
+@font-face {
+    font-family: 'C64';
+    src: url('C64_Pro_Mono-STYLE.ttf') format('truetype'),
+         local('Courier New'), local('Consolas');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Disable antialiasing for pixel-perfect C64 look */
+* {
+    -webkit-font-smoothing: none !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    font-smooth: never !important;
+    text-rendering: optimizeSpeed !important;
+}
